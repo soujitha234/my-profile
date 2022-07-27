@@ -1,0 +1,25 @@
+body{
+    color: black;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    }
+img{
+    position: fixed;
+    height: 90vh;
+    width: 90px;
+    top: 2px;
+    right: 5px;
+    border-radius: 50%;
+    }
+h1{
+    color: black;
+    align-items: center;
+  }
+h2{
+    color: black;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    }
