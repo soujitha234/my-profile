@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+ ::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+
+.animate-charcter
+{
+
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+   font-size: 50px;
+  
+}
+.repeating-linear {
+  color: pink;
+  border: 10px solid pink;
+  border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+}
+.repeating-linear:hover {
+  border-image: repeating-linear-gradient( 45deg, purple, purple 1%, pink 1%, pink 8%) 10;
+  color: purple;
+}
+/* styling for Pen, unrelated to border-image */
+
+* {
+  box-sizing: border-box;
+}
+      body{
+  background-color: #9eabe4;
+  background-image: linear-gradient(315deg, #9eabe4 0%, #77eed8 74%);
+                                      
+}
+
+ @keyframes textclip {
+  to {
+    background-position: 200% center;
+   
+  }
+} 
+      </style>
+  </head>  
+  <body>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <center>
+      <h6 class="animate-charcter">&nbsp &nbsp Relational Model</h6>
+        </center>
+    </div>
+  </div>
+</div>
+    <div>
+      <center>
+      <img src="https://www.researchgate.net/profile/Wil-Aalst/publication/283551728/figure/fig1/AS:843315570282499@1578073508967/Database-schema-for-the-Ticket-selling-example.png" alt="create-01">
+      </center>  
+    </div>  
+  </body>  
+</html>  
